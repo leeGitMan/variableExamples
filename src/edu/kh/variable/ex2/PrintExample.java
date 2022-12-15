@@ -23,8 +23,8 @@ public class PrintExample {
 		System.out.println("Test");
 		System.out.println();
 		
-		System.out.print("Test3");
-		System.out.print("Test4");
+		System.out.print("Test3 ");
+		System.out.print("Test4 ");
 		System.out.print("Test5");
 		System.out.println();
 		System.out.println();
@@ -46,6 +46,8 @@ public class PrintExample {
 		// \n 같은 개행 문자(escape)를 사용하여 다음줄로 개행가능
 		// 10 + 10 * 5 / 2 = 35
 		System.out.printf("%d + %d * %d / %d = %d\n", iNum1, iNum1, iNum2, iNum3, iNum1 + iNum1 * iNum2 / iNum3);
+		// 10 + 10 + 10 + 5 * 5 / 2 = ?
+		System.out.printf("%d + %d + %d + %d * %d / %d = %d\n", iNum1, iNum1, iNum1, iNum2, iNum2, iNum3, iNum1 + iNum1 + iNum1 + iNum2 * iNum2 / iNum3);
 		System.out.println();
 		
 		

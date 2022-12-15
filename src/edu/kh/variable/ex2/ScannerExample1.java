@@ -44,11 +44,11 @@ public class ScannerExample1 {
 		
 		
 		/*
-		System.out.println("인사를 하세요: ");
+		System.out.println("입력3: ");
 		String input10 = sc.nextLine();
 		System.out.println(input10);
 		
-		System.out.println("주소를 입력 하시오: ");
+		System.out.println("입력4: ");
 		String input11 = sc.nextLine();
 		System.out.println(input11);
 		*/
@@ -59,7 +59,7 @@ public class ScannerExample1 {
 		System.out.println(input100);
 		
 		System.out.print("뭐 드시고 시프세요?: ");
-		String input101 = input100 + " " + sc.next();
+		String input101 = sc.next();
 		System.out.println(input101);
 		*/
 		
